@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "\n##Student ID: 162050 | Name: Karthik Rajagopalan##\nozoneData = read.csv(\"/home/karthik/Documents/git/Big_Data/Ozone_data.csv\")\nsummary(lm(Ozone~Temp+Wind,data=ozoneData))\n\n##Hypothesis Testing\n\nozoneHypData = read.csv(\"/home/karthik/Documents/git/Big_Data/Ozone_data.csv\")\n##retrieving the ozone column\nozoneCol = ozoneHypData[c(1)]\nt.test(ozoneCol,alternative = \"less\", mu=50)\n##rpubs link: http://rpubs.com/kargreataws/216397\n\n\n\n",
+    "created" : 1474830081185.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "678244041",
+    "id" : "3FF52852",
+    "lastKnownWriteTime" : 1475944065,
+    "last_content_update" : 1475944065556,
+    "path" : "~/Documents/myRprojects/ozoneData.r",
+    "project_path" : "ozoneData.r",
+    "properties" : {
+        "notebook_format" : "html_document",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}
